@@ -1,0 +1,7 @@
+{
+    "recipes": {
+        "thelia/test": [
+            "1.0"
+        ]
+    }
+}
