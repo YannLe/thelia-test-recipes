@@ -3,5 +3,12 @@
         "thelia/test": [
             "1.0"
         ]
+    },
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/YannLe/thelia-test-recipe",
+        "origin_template": "{package}:{version}@github.com/YannLe/thelia-test-recipe:main",
+        "recipe_template": "https://api.github.com/repos/YannLe/thelia-test-recipe/contents/{package_dotted}.{version}.json"
     }
 }
