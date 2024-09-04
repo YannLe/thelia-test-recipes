@@ -1,7 +1,7 @@
 {
     "recipes": {
-        "thelia/flexy": [
-            "dev-add-recipes"
+        "symfony/webpack-encore-bundle": [
+            "2.0"
         ]
     },
     "branch": "main",
