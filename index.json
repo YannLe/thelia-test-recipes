@@ -1,7 +1,7 @@
 {
     "recipes": {
         "symfony/webpack-encore-bundle": [
-            "2.0"
+            "2.1"
         ]
     },
     "branch": "main",
