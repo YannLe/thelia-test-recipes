@@ -1,14 +1,14 @@
 {
     "recipes": {
-        "thelia/test": [
-            "1.0"
+        "thelia/flexy": [
+            "dev-add-recipes"
         ]
     },
     "branch": "main",
     "is_contrib": true,
     "_links": {
-        "repository": "github.com/YannLe/thelia-test-recipe",
-        "origin_template": "{package}:{version}@github.com/YannLe/thelia-test-recipe:main",
-        "recipe_template": "https://api.github.com/repos/YannLe/thelia-test-recipe/contents/{package_dotted}.{version}.json"
+        "repository": "github.com/YannLe/thelia-test-recipes",
+        "origin_template": "{package}:{version}@github.com/YannLe/thelia-test-recipes:main",
+        "recipe_template": "https://api.github.com/repos/YannLe/thelia-test-recipes/contents/{package_dotted}.{version}.json"
     }
 }
