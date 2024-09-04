@@ -7,9 +7,15 @@
         },
         "copy-from-recipe": {
           "config/": "%CONFIG_DIR%/"
-        }
+        },
+        "gitignore": [
+          "/node_modules/",
+          "/%PUBLIC_DIR%/build/",
+          "npm-debug.log",
+          "yarn-error.log"
+        ]
       },
-      "ref": "1c132d28e738689d6a02da6d85a8dbecd32168ce"
+      "ref": "270c9d733f80b4cf1dff34f029de5b7b64ba8e04"
     }
   }
 }
