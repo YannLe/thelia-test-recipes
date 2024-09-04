@@ -6,10 +6,10 @@
           "Symfony\\WebpackEncoreBundle\\WebpackEncoreBundle": [ "all"]
         },
         "copy-from-recipe": {
-          "config/": "%CONFIG_DIR%"
+          "config/": "%CONFIG_DIR%/"
         }
       },
-      "ref": "3f0eb3fe4f75d25c3a4488c96cc3024e72c1d887"
+      "ref": "8dd87f677e34718480b64d108b2aa44b8f75f797"
     }
   }
 }
