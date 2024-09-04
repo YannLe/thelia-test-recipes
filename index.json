@@ -1,14 +1,23 @@
 {
-  "recipes": {
-    "symfony/webpack-encore-bundle": [
-      "2.1"
-    ]
-  },
-  "branch": "main",
-  "is_contrib": true,
-  "_links": {
-    "repository": "github.com/YannLe/thelia-test-recipes",
-    "origin_template": "{package}:{version}@github.com/YannLe/thelia-test-recipes:main",
-    "recipe_template": "https://api.github.com/repos/YannLe/thelia-test-recipes/contents/{package_dotted}.{version}.json"
-  }
+    "aliases": {
+        "webpack-encore-bundle": "symfony/webpack-encore-bundle",
+        "webpackencorebundle": "symfony/webpack-encore-bundle"
+    },
+    "recipes": {
+        "symfony/webpack-encore-bundle": [
+            "2.1"
+        ]
+    },
+    "recipe-conflicts": [],
+    "versions": [],
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/YannLe/thelia-test-recipes",
+        "origin_template": "{package}:{version}@github.com/YannLe/thelia-test-recipes:main",
+        "recipe_template": "https://raw.githubusercontent.com/YannLe/thelia-test-recipes/flex/main/{package_dotted}.{version}.json",
+        "recipe_template_relative": "{package_dotted}.{version}.json",
+        "archived_recipes_template": "https://raw.githubusercontent.com/YannLe/thelia-test-recipes/flex/main/archived/{package_dotted}/{ref}.json",
+        "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
+    }
 }
