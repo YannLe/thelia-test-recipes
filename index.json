@@ -1,11 +1,16 @@
 {
     "aliases": {
+        "twig-bundle": "symfony/twig-bundle",
+        "twigbundle": "symfony/twig-bundle",
         "ux-twig-component": "symfony/ux-twig-component",
         "uxtwigcomponent": "symfony/ux-twig-component",
         "webpack-encore-bundle": "symfony/webpack-encore-bundle",
         "webpackencorebundle": "symfony/webpack-encore-bundle"
     },
     "recipes": {
+        "symfony/twig-bundle": [
+            "6.4"
+        ],
         "symfony/ux-twig-component": [
             "2.13"
         ],
@@ -13,7 +18,13 @@
             "2.1"
         ]
     },
-    "recipe-conflicts": [],
+    "recipe-conflicts": {
+        "symfony/twig-bundle": {
+            "6.4": {
+                "symfony/framework-bundle": "<5.3"
+            }
+        }
+    },
     "versions": [],
     "branch": "main",
     "is_contrib": true,
